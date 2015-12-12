@@ -1,0 +1,59 @@
+/* CSS Document */
+
+.requerido{
+	color: #FF0000;
+}
+
+.container-banner {
+    background: #fff none repeat scroll 0 0;
+    height: auto !important;
+    max-height: 480px !important;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container-banner img {
+    display: inline-block;
+    text-align: center;
+    vertical-align: initial !important;
+    width: 100%;
+}
+
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container::before, .container::after {
+    content: " ";
+    display: table;
+}
+
+.container::after {
+    clear: both;
+}
+
+.container::before, .container::after {
+    content: " ";
+    display: table;
+}
+
+.container::after {
+    clear: both;
+}
+
+.container-gallery {
+	float: left;
+	padding: 7px;
+}
+
+textarea {
+  resize:none;
+}

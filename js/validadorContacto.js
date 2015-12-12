@@ -1,19 +1,19 @@
 // JavaScript Document
 
 function validarContacto(){
-	if(document.formularioContacto.nombre.value==""){
+	if(document.formularioContacto.nombre.value===""){
 		alert("Debe Ingresar tu nombre completo.");
 		document.formularioContacto.nombre.focus();
 		return false();
 	}
 	
-	if(document.formularioContacto.email.value==""){
+	if(document.formularioContacto.email.value===""){
 		alert("Debe ingresar tu correo electrónico.");
 		document.formularioContacto.email.focus();
 		return false();
 	}
 	
-	if(document.formularioContacto.mensaje.value==""){
+	if(document.formularioContacto.mensaje.value===""){
 		alert("Debe ingresar un asunto para enviar.");
 		document.formularioContacto.mensaje.focus();
 		return false();
